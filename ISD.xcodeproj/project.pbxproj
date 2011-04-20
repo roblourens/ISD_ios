@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ISDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ISDAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SecondView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		D400FEA4117E3BA5003E47FC /* Story.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FEA3117E3BA5003E47FC /* Story.m */; };
+		D400FEA7117E3CD9003E47FC /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = D400FEA6117E3CD9003E47FC /* Picture.m */; };
+		D4045119127F0CC40022B7EB /* StoryParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D4045118127F0CC40022B7EB /* StoryParser.m */; };
+		D404F668117F68D4003FFCE4 /* fut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D404F667117F68D4003FFCE4 /* fut.jpg */; };
+		D4135062126C94E900031146 /* AtomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D4135061126C94E900031146 /* AtomParser.m */; };
+		D436449D118B434300008820 /* StoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D436449C118B434300008820 /* StoryVC.m */; };
+		D453689A12413C6500C849B9 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D453689912413C6500C849B9 /* IconDownloader.m */; };
+		D4549BA9117E543E00CF30DC /* RssParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D4549BA8117E543E00CF30DC /* RssParser.m */; };
+		D468829B117CBE1200E07A15 /* NewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D4688297117CBE1200E07A15 /* NewsVC.m */; };
+		D468829C117CBE1200E07A15 /* NewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4688298117CBE1200E07A15 /* NewsVC.xib */; };
+		D468829D117CBE1200E07A15 /* NewsData.m in Sources */ = {isa = PBXBuildFile; fileRef = D468829A117CBE1200E07A15 /* NewsData.m */; };
+		D468829F117CBE5000E07A15 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D468829E117CBE5000E07A15 /* MainWindow.xib */; };
+		D46996481288701700795C5A /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = D46996471288701700795C5A /* notes.txt */; };
+		D48CC21C12BAAAF800864451 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D48CC21B12BAAAF800864451 /* icon.png */; };
+		D495D863129447D700276FDB /* ISD_Mobile_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D495D862129447D700276FDB /* ISD_Mobile_logo.png */; };
+		D4B85A091180B89E00B8D4A3 /* selectedBG.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B85A081180B89E00B8D4A3 /* selectedBG.png */; };
+		D4B85A291180BECD00B8D4A3 /* android-rendered.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D4B85A281180BECD00B8D4A3 /* android-rendered.jpeg */; };
+		D4B85A2D1180BF2700B8D4A3 /* selectedBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4B85A2C1180BF2700B8D4A3 /* selectedBG.jpg */; };
+		D4B85A751180C9F000B8D4A3 /* isd-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D4B85A741180C9F000B8D4A3 /* isd-logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ISDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISDAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ISDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISDAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ISD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		282CCBFD0DB6C98000C4EA27 /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* ISD_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISD_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ISD-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ISD-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		D400FEA2117E3BA5003E47FC /* Story.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Story.h; sourceTree = "<group>"; };
+		D400FEA3117E3BA5003E47FC /* Story.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Story.m; sourceTree = "<group>"; };
+		D400FEA5117E3CD9003E47FC /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		D400FEA6117E3CD9003E47FC /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		D4045117127F0CC40022B7EB /* StoryParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryParser.h; sourceTree = "<group>"; };
+		D4045118127F0CC40022B7EB /* StoryParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryParser.m; sourceTree = "<group>"; };
+		D404F667117F68D4003FFCE4 /* fut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fut.jpg; sourceTree = "<group>"; };
+		D4135060126C94E900031146 /* AtomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomParser.h; sourceTree = "<group>"; };
+		D4135061126C94E900031146 /* AtomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtomParser.m; sourceTree = "<group>"; };
+		D436449B118B434300008820 /* StoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryVC.h; sourceTree = "<group>"; };
+		D436449C118B434300008820 /* StoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryVC.m; sourceTree = "<group>"; };
+		D453689812413C6500C849B9 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		D453689912413C6500C849B9 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		D4549BA7117E543E00CF30DC /* RssParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssParser.h; sourceTree = "<group>"; };
+		D4549BA8117E543E00CF30DC /* RssParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssParser.m; sourceTree = "<group>"; };
+		D4688296117CBE1200E07A15 /* NewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsVC.h; sourceTree = "<group>"; };
+		D4688297117CBE1200E07A15 /* NewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsVC.m; sourceTree = "<group>"; };
+		D4688298117CBE1200E07A15 /* NewsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsVC.xib; sourceTree = "<group>"; };
+		D4688299117CBE1200E07A15 /* NewsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsData.h; path = Classes/NewsData.h; sourceTree = "<group>"; };
+		D468829A117CBE1200E07A15 /* NewsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsData.m; path = Classes/NewsData.m; sourceTree = "<group>"; };
+		D468829E117CBE5000E07A15 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D46996471288701700795C5A /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		D48CC21B12BAAAF800864451 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D495D862129447D700276FDB /* ISD_Mobile_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ISD_Mobile_logo.png; sourceTree = "<group>"; };
+		D4B85A081180B89E00B8D4A3 /* selectedBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectedBG.png; sourceTree = "<group>"; };
+		D4B85A281180BECD00B8D4A3 /* android-rendered.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "android-rendered.jpeg"; sourceTree = "<group>"; };
+		D4B85A2C1180BF2700B8D4A3 /* selectedBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = selectedBG.jpg; sourceTree = "<group>"; };
+		D4B85A741180C9F000B8D4A3 /* isd-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isd-logo.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D453689812413C6500C849B9 /* IconDownloader.h */,
+				D453689912413C6500C849B9 /* IconDownloader.m */,
+				1D3623240D0F684500981E51 /* ISDAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ISDAppDelegate.m */,
+				D4688296117CBE1200E07A15 /* NewsVC.h */,
+				D4688297117CBE1200E07A15 /* NewsVC.m */,
+				D4688298117CBE1200E07A15 /* NewsVC.xib */,
+				D436449B118B434300008820 /* StoryVC.h */,
+				D436449C118B434300008820 /* StoryVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ISD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ISD */ = {
+			isa = PBXGroup;
+			children = (
+				D400FEA1117E3B9A003E47FC /* Data */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ISD;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* ISD_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D48CC21B12BAAAF800864451 /* icon.png */,
+				D495D862129447D700276FDB /* ISD_Mobile_logo.png */,
+				D4B85A741180C9F000B8D4A3 /* isd-logo.png */,
+				D4B85A2C1180BF2700B8D4A3 /* selectedBG.jpg */,
+				D4B85A281180BECD00B8D4A3 /* android-rendered.jpeg */,
+				D4B85A081180B89E00B8D4A3 /* selectedBG.png */,
+				D404F667117F68D4003FFCE4 /* fut.jpg */,
+				D468829E117CBE5000E07A15 /* MainWindow.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SecondView.xib */,
+				8D1107310486CEB800E47090 /* ISD-Info.plist */,
+				D46996471288701700795C5A /* notes.txt */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D400FEA1117E3B9A003E47FC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D400FEA5117E3CD9003E47FC /* Picture.h */,
+				D400FEA6117E3CD9003E47FC /* Picture.m */,
+				D4688299117CBE1200E07A15 /* NewsData.h */,
+				D468829A117CBE1200E07A15 /* NewsData.m */,
+				D4549BA7117E543E00CF30DC /* RssParser.h */,
+				D4549BA8117E543E00CF30DC /* RssParser.m */,
+				D400FEA2117E3BA5003E47FC /* Story.h */,
+				D400FEA3117E3BA5003E47FC /* Story.m */,
+				D4135060126C94E900031146 /* AtomParser.h */,
+				D4135061126C94E900031146 /* AtomParser.m */,
+				D4045117127F0CC40022B7EB /* StoryParser.h */,
+				D4045118127F0CC40022B7EB /* StoryParser.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ISD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ISD" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISD;
+			productName = ISD;
+			productReference = 1D6058910D05DD3D006BFB54 /* ISD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ISD" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ISD */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ISD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282CCBFE0DB6C98000C4EA27 /* SecondView.xib in Resources */,
+				D468829C117CBE1200E07A15 /* NewsVC.xib in Resources */,
+				D468829F117CBE5000E07A15 /* MainWindow.xib in Resources */,
+				D404F668117F68D4003FFCE4 /* fut.jpg in Resources */,
+				D4B85A091180B89E00B8D4A3 /* selectedBG.png in Resources */,
+				D4B85A291180BECD00B8D4A3 /* android-rendered.jpeg in Resources */,
+				D4B85A2D1180BF2700B8D4A3 /* selectedBG.jpg in Resources */,
+				D4B85A751180C9F000B8D4A3 /* isd-logo.png in Resources */,
+				D46996481288701700795C5A /* notes.txt in Resources */,
+				D495D863129447D700276FDB /* ISD_Mobile_logo.png in Resources */,
+				D48CC21C12BAAAF800864451 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ISDAppDelegate.m in Sources */,
+				D468829B117CBE1200E07A15 /* NewsVC.m in Sources */,
+				D468829D117CBE1200E07A15 /* NewsData.m in Sources */,
+				D400FEA4117E3BA5003E47FC /* Story.m in Sources */,
+				D400FEA7117E3CD9003E47FC /* Picture.m in Sources */,
+				D4549BA9117E543E00CF30DC /* RssParser.m in Sources */,
+				D436449D118B434300008820 /* StoryVC.m in Sources */,
+				D453689A12413C6500C849B9 /* IconDownloader.m in Sources */,
+				D4135062126C94E900031146 /* AtomParser.m in Sources */,
+				D4045119127F0CC40022B7EB /* StoryParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ISD_Prefix.pch;
+				INFOPLIST_FILE = "ISD-Info.plist";
+				PRODUCT_NAME = ISD;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ISD_Prefix.pch;
+				INFOPLIST_FILE = "ISD-Info.plist";
+				PRODUCT_NAME = ISD;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rob Lourens (7L37V6PJYN)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Rob Lourens (7L37V6PJYN)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "93A8B800-3491-43DE-BA00-5DBC0FAE56AE";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D48CC20D12BAA55500864451 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Iowa State Daily";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0222667-9EEA-4F36-9869-8F4B8A2C0EE4";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		D48CC20E12BAA55500864451 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ISD_Prefix.pch;
+				INFOPLIST_FILE = "ISD-Info.plist";
+				PRODUCT_NAME = ISD;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ISD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				D48CC20E12BAA55500864451 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ISD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				D48CC20D12BAA55500864451 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

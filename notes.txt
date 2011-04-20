@@ -1,0 +1,6 @@
+x headline: white on red, bold
+* tab bar: news, submit, contact us
+* submit story has user pick story type, emails to correct dudes.
+* ignore complicated stuff for now, just get a news reader out the door
+* refresh button, or keep checking for updates
+x send Charlie the height of the navigation bar to get an image for it
